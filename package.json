@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "elo-rating": "^1.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.22.1",
+    "ssh2": "^1.11.0"
+  },
+  "scripts": {
+    "upload": "scp -r ./* root@142.93.152.252:/var/www/erapi.gruman.co/html/"
+  }
+}
